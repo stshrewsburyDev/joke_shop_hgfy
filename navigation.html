@@ -1,0 +1,16 @@
+<div id="main_nav" class="main_nav">
+  <h1 id="main_nav_title"><i class="fas fa-hand-middle-finger"></i> Shop!</h1>
+  <div class="navigation">
+    <a href="https://shop.hellogofuckyourself.com/"><i class="fas fa-home"></i> Home</a>
+    <a href="#"><i class="fas fa-envelope"></i> Contact</a>
+    <a href="https://hellogofuckyourself.com/"><i class="fas fa-hand-middle-finger"></i> Homepage</a>
+    <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="update_menu()"><i class="fas fa-bars"></i></a>
+  </div>
+</div>
+<script>
+  function update_menu(){
+    var x = document.getElementById("main_nav")
+    if (x.className === "main_nav"){x.className += " mobile";}
+    else{x.className = "main_nav";}
+  }
+</script>
